@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_artist"
     android:layout_width="match_parent"
@@ -8,6 +8,68 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
     tools:context="com.example.android.musicalstructureapp.ArtistActivity">
 
-</RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is where the user will be able to select from a grouping of artists to find the songs they would like to listent to."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Artists"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:text="Stardust Creatures"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:text="System of a Down"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:text="Serj Tankian"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:text="Seba Yuri"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

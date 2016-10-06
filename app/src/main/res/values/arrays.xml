@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="songs_array">
+        <item>Spaced Out</item>
+        <item>Big Scary Monsters</item>
+        <item>Like Gentle Waves</item>
+        <item>Forthcoming SDC</item>
+        <item>Forthcoming SDC</item>
+    </string-array>
+</resources>
