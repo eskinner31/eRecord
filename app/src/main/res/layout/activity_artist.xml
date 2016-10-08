@@ -4,27 +4,28 @@
     android:id="@+id/activity_artist"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
     tools:context="com.example.android.musicalstructureapp.ArtistActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This is where the user will be able to select from a grouping of artists to find the songs they would like to listent to."/>
+        android:text="This is where the user will be able to select from a grouping of artists to find the songs they would like to listent to." />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="1"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:textStyle="bold"
+        android:layout_weight="1"
+        android:text="Artists"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp"
-        android:text="Artists"/>
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,42 +33,42 @@
         android:layout_weight="2"
         android:orientation="vertical">
 
-        <TextView
+        <Button
+            android:id="@+id/stardust_creatures"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:textSize="20sp"
             android:gravity="center"
+            android:text="Stardust Creatures"
             android:textColor="@color/colorAccent"
-            android:text="Stardust Creatures"/>
+            android:textSize="20sp" />
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:textSize="20sp"
             android:gravity="center"
+            android:text="System of a Down"
             android:textColor="@color/colorAccent"
-            android:text="System of a Down"/>
+            android:textSize="20sp" />
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:textSize="20sp"
             android:gravity="center"
+            android:text="Serj Tankian"
             android:textColor="@color/colorAccent"
-            android:text="Serj Tankian"/>
+            android:textSize="20sp" />
 
-        <TextView
+        <Button
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:textSize="20sp"
             android:gravity="center"
+            android:text="Seba Yuri"
             android:textColor="@color/colorAccent"
-            android:text="Seba Yuri"/>
-
+            android:textSize="20sp" />
 
 
     </LinearLayout>
